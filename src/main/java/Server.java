@@ -14,6 +14,10 @@ public class Server {
     @OnOpen
     public void onOpen(Session session) {
         System.out.println("client come.....");
+
+
+
+
         try {
             session.getBasicRemote().sendText("hello i am client");
         } catch (IOException e) {
