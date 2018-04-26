@@ -18,6 +18,9 @@ public class Server {
             session.getBasicRemote().sendText("hello i am client");
         } catch (IOException e) {
             e.printStackTrace();
+
+
+            System.out.println("asddddddd");
         }
 
     }
